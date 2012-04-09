@@ -16,10 +16,12 @@ header {
 }
 
 header h1 {
-  width: 237px;
+  float: left;
+  width: 0;
+  padding-left: 250px;
   height: 150px;
   background: url("/assets/logo.jpg") no-repeat top left;
-  padding-left: 9999px;
+  overflow: hidden;
 }
 
 nav {
