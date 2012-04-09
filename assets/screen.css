@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4em;
+  color: #999;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 2em auto 1em;
+  overflow: hidden;
+}
+
+header {
+  height: 150px;
+  background: url("/assets/tools.jpg") no-repeat top right;
+}
+
+header h1 {
+  width: 237px;
+  height: 150px;
+  background: url("/assets/logo.jpg") no-repeat top left;
+  padding-left: 9999px;
+}
+
+nav {
+  margin-top: 2em;
+}
+
+nav a, nav a:visited {
+  text-decoration: none;
+  color: inherit;
+  float: left;
+  margin-left: 4.2em;
+  position: relative;
+  padding: 1em 0.5em 1em 1em;
+  border: solid 2px #EEE;
+  border-width: 0 2px;
+  letter-spacing: 0.7em;
+  margin-bottom: 2em;
+}
+
+nav a div {
+  border-bottom: solid 2px #EEE;
+  position: absolute;
+}
+
+nav a:hover, nav a:hover div {
+  border-color: #CCC;
+}
+
+nav a .top {
+  top: 15%;
+  right: -8px;
+  width: 117%;
+}
+
+nav a .bottom {
+  bottom: 15%;
+  left: -7%;
+  width: 117%;
+}
+
+#content {
+  clear: both;
+  min-height: 20em;
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 0.8em;
+  color: #AAA;
+  text-align: center;
+}
+
+a, a:visited {
+  text-decoration: underline;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1em;
+}
