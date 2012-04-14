@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.4em;
-  color: #999;
+  color: #555;
 }
 
 #wrapper {
@@ -26,59 +26,82 @@ header h1 {
 
 nav {
   margin-top: 2em;
+  text-align: center;
 }
 
 nav a, nav a:visited {
   text-decoration: none;
-  color: inherit;
-  float: left;
-  margin-left: 4.2em;
+  color: #999;
+  display: inline-block;
+  margin: 0 1.5em;
   position: relative;
   padding: 1em 0.5em 1em 1em;
-  border: solid 2px #EEE;
+  border: solid 2px #DDD;
   border-width: 0 2px;
-  letter-spacing: 0.7em;
   margin-bottom: 2em;
+  text-transform: lowercase;
+  letter-spacing: 0.6em;
 }
 
 nav a div {
-  border-bottom: solid 2px #EEE;
+  border-bottom: solid 2px #DDD;
   position: absolute;
 }
 
 nav a:hover, nav a:hover div {
-  border-color: #CCC;
+  border-color: #777;
+  color: inherit;
 }
 
 nav a .top {
   top: 15%;
-  right: -8px;
-  width: 117%;
+  right: -7px;
+  width: 110%;
 }
 
 nav a .bottom {
   bottom: 15%;
-  left: -7%;
-  width: 117%;
+  left: -7px;
+  width: 110%;
 }
 
 #content {
   clear: both;
   min-height: 20em;
+  text-align: justify;
 }
 
 footer {
-  margin-top: 2em;
+  margin-top: 6em;
   font-size: 0.8em;
   color: #AAA;
   text-align: center;
 }
 
-a, a:visited {
-  text-decoration: underline;
-  color: #333;
+h2, h3, h4 {
+  text-transform: lowercase;
+  letter-spacing: 0.6em;
+  text-align: center;
 }
 
-p {
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+a, a:visited {
+  text-decoration: underline;
+  color: #999;
+}
+
+h2, h3, h4, p {
   margin-bottom: 1em;
+}
+
+.contact {
+  text-align: center;
 }
