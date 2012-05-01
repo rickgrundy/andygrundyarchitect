@@ -40,7 +40,7 @@ nav a, nav a:visited {
   border-width: 0 2px;
   margin-bottom: 2em;
   text-transform: lowercase;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.4em;
 }
 
 nav a div {
@@ -98,10 +98,19 @@ a, a:visited {
   color: #999;
 }
 
-h2, h3, h4, p {
+h2, h3, h4, p, li {
   margin-bottom: 1em;
 }
 
 .contact {
   text-align: center;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.4em;
+}
+
+strong {
+  font-weight: bold;
 }
