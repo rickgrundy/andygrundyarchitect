@@ -76,6 +76,7 @@ footer {
   font-size: 0.8em;
   color: #AAA;
   text-align: center;
+  clear: both;
 }
 
 h2, h3, h4 {
@@ -113,4 +114,48 @@ ul {
 
 strong {
   font-weight: bold;
+}
+
+dl {
+  width: 70%;
+  margin: 0 auto;
+}
+
+dt {
+  margin-bottom: 2em;
+  width: 25%;
+  margin-right: 5%;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 2em;  
+  width: 70%;
+  float: left;
+  text-align: left;
+  clear: right;
+}
+
+label {
+  display: inline-block;
+  width: 20%;
+}
+
+input {
+  width: 77%;
+  padding: 1%;
+  border: solid 1px #CCC;
+}
+
+textarea {
+  padding: 1%;
+  border: solid 1px #CCC;
+  width: 98%;
+}
+
+button {
+  float: right;
+  padding: 1em 3em;
 }
