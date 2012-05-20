@@ -49,8 +49,8 @@ body {
 }
 
 .nav a:hover, .nav a:hover div {
-  border-color: #81352D;
-  color: #81352D;
+  border-color: #CCC;
+  color: #999;
 }
 
 .nav a .top {
@@ -67,11 +67,11 @@ body {
 
 a, a:visited {
   text-decoration: underline;
-  color: #777;  
+  color: #333;  
 }
 
 a:hover {
-  color: #81352D;  
+  color: #999;  
 }
 
 .left-side {
@@ -93,6 +93,7 @@ a:hover {
 #content {
   clear: both;
   min-height: 20em;
+  position: relative;
 }
 
 .footer {
@@ -206,4 +207,37 @@ button {
 
 .portfolio .notes p {
   color: #777;
+}
+
+.homepage .column {
+  width: 192px;
+  float: left;
+}
+
+.homepage .overlay {
+  background: url("/assets/overlay.png") repeat top right;
+  position: absolute;
+  right: 0;
+  font-size: 1.25em;
+  padding: .5em 1em;
+}
+
+.homepage .one {
+  top: 130px;
+}
+
+.homepage .two {
+  top: 180px;
+}
+
+.homepage .three {
+  top: 230px;
+}
+
+.homepage .four {
+  top: 280px;
+}
+
+.homepage .five {
+  top: 330px;
 }
