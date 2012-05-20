@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.4em;
-  color: #555;
+  color: #333;
 }
 
 #wrapper {
   width: 960px;
-  margin: 2em auto 1em;
+  margin: 1em auto 1em;
   overflow: hidden;
 }
 
@@ -31,26 +31,26 @@ body {
 
 .nav a, .nav a:visited {
   text-decoration: none;
-  color: #999;
   display: inline-block;
   margin: 0 1.5em;
   position: relative;
   padding: 1em 0.5em 1em 1em;
-  border: solid 2px #DDD;
-  border-width: 0 2px;
+  color: #333;
+  border: solid 1px #999;
+  border-width: 0 1px;
   margin-bottom: 2em;
   text-transform: lowercase;
   letter-spacing: 0.4em;
 }
 
 .nav a div {
-  border-bottom: solid 2px #DDD;
+  border-bottom: solid 1px #999;
   position: absolute;
 }
 
 .nav a:hover, .nav a:hover div {
-  border-color: #777;
-  color: inherit;
+  border-color: #81352D;
+  color: #81352D;
 }
 
 .nav a .top {
@@ -63,6 +63,15 @@ body {
   bottom: 15%;
   left: -7px;
   width: 110%;
+}
+
+a, a:visited {
+  text-decoration: underline;
+  color: #777;  
+}
+
+a:hover {
+  color: #81352D;  
 }
 
 .left-side {
@@ -111,12 +120,7 @@ h3 {
 h4 {
   font-size: 1.4em;
   line-height: 1em;
-  color: #999;
-}
-
-a, a:visited {
-  text-decoration: underline;
-  color: #999;
+  color: #777;
 }
 
 h2, h3, h4, p, li {
@@ -182,7 +186,7 @@ button {
   clear: both;
   margin-bottom: 2em;
   padding-bottom: 2em;
-  border-bottom: dashed 1px #CCC;
+  border-bottom: dashed 1px #999;
 }
 
 .portfolio .job:last-child {
@@ -201,5 +205,5 @@ button {
 }
 
 .portfolio .notes p {
-  color: #999;
+  color: #777;
 }
