@@ -159,3 +159,8 @@ button {
   float: right;
   padding: 1em 3em;
 }
+
+img.left-side {
+  float: left;
+  margin-right: 2em;
+}
