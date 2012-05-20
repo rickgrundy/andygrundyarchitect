@@ -22,36 +22,40 @@
 </head>
 <body>
   <div id="wrapper">
-    <header>
-        <a href="/" alt="Andy Grundy Architect">
+    <div class="header">
+        <a href="/">
           <h1>Andy Grundy Architect</h1>
         </a>
-    </header>
-    <nav>
-      <a href="/" alt="Home">
+    </div>
+    <div class="nav">
+      <a href="/">
         <div class="top"></div>Home<div class="bottom"></div>
       </a>
-      <a href="/profile.html" alt="Profile">
+      <a href="/profile.html">
         <div class="top"></div>Profile<div class="bottom"></div>
       </a>
-      <a href="/process.html" alt="Normal Process and Fees">
+      <a href="/process.html">
         <div class="top"></div>Process + Fees<div class="bottom"></div>
       </a>      
-      <a href="/portfolio.html" alt="Portfolio">
+      <a href="/portfolio.html">
         <div class="top"></div>Portfolio<div class="bottom"></div>
       </a>
-      <a href="/contact.html" alt="Contact">
+      <a href="/contact.html">
         <div class="top"></div>Contact<div class="bottom"></div>
       </a>
-    </nav>
+    </div>
     <div id="content">
-      <h2>Contact Us</h2>
+      <div class="left-side">
+  <img src="/assets/garden.jpg" title="Garden" alt="A house surrounded by greenery"/>
+</div>
 
-<div class="contact">
+<div class="right-side">
+  <h2>Contact Us</h2>
+
   <dl>
     <dt>Phone</dt>
     <dd>01625 878 414</dd>
-    
+  
     <dt>Online</dt>
     <dd>
       <form action="http://rickgrundy.com/contact/andygrundyarchitect" method="post">
@@ -59,22 +63,22 @@
           <label for="name">Name:</label>
           <input id="name" name="name" type="text" placeholder="Your name" />
         </p>
-        
+      
         <p>
           <label for="email">Email:</label>
-          <input id="email" name="email" type="text" placeholder="Your email address" /></p>
+          <input id="email" name="email" type="text" placeholder="Your email address" />
         </p>
-        
+      
         <p>
           <label for="email">Phone:</label>
-          <input id="phone" name="phone" type="text" placeholder="Your phone number" /></p>
+          <input id="phone" name="phone" type="text" placeholder="Your phone number" />
         </p>        
-        
+      
         <p>
           <label for="message">Message:</label>
-          <textarea name="message" rows="10" placeholder="Your message"></textarea>
+          <textarea id="message" name="message" rows="10" placeholder="Your message"></textarea>
         </p>
-        
+      
         <p>
           <button type="submit">Send</button>
         </p>
@@ -83,9 +87,9 @@
   </dl>
 </div>
     </div>
-    <footer>
+    <div class="footer">
       Copyright &copy; Andy Grundy Architect, 2012
-    </footer>
+    </div>
   </div>
 </body>
 </html>
