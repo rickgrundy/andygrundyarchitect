@@ -30,6 +30,7 @@ body {
 }
 
 .nav a, .nav a:visited {
+  outline: none;
   text-decoration: none;
   display: inline-block;
   margin: 0 1.5em;
@@ -67,11 +68,11 @@ body {
 
 a, a:visited {
   text-decoration: underline;
-  color: #333;  
+  color: #777;  
 }
 
 a:hover {
-  color: #999;  
+  color: #AAA;  
 }
 
 .left-side {
@@ -98,7 +99,6 @@ a:hover {
 
 .footer {
   margin-top: 6em;
-  font-size: 0.8em;
   color: #AAA;
   text-align: center;
   clear: both;
@@ -109,7 +109,7 @@ a:hover {
 h2 {
   text-transform: lowercase;
   letter-spacing: 0.2em;
-  font-size: 2.2em;
+  font-size: 2.5em;
   line-height: 1.1em;
 }
 
@@ -209,35 +209,13 @@ button {
   color: #777;
 }
 
-.homepage .column {
-  width: 192px;
+.homepage .left-side img {
   float: left;
+  width: 150px;
+  height: 180px;
 }
 
-.homepage .overlay {
-  background: url("/assets/overlay.png") repeat top right;
-  position: absolute;
-  right: 0;
-  font-size: 1.25em;
-  padding: .5em 1em;
-}
-
-.homepage .one {
-  top: 130px;
-}
-
-.homepage .two {
-  top: 180px;
-}
-
-.homepage .three {
-  top: 230px;
-}
-
-.homepage .four {
-  top: 280px;
-}
-
-.homepage .five {
-  top: 330px;
+.homepage .right-side p {
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
