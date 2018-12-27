@@ -12,6 +12,7 @@
     <dt>Online</dt>
     <dd>
       <form action="http://www.rickgrundy.com/contact/andygrundyarchitect" method="post">
+        <input type="hidden" id="recaptcha" name="recaptcha" />
         <p>
           <label for="name">Name:</label>
           <input id="name" name="name" type="text" placeholder="Your name" />
@@ -39,3 +40,13 @@
     </dd>
   </dl>
 </div>
+
+<script src='https://www.google.com/recaptcha/api.js?render=6LdZNIUUAAAAAKNIJC2dEnVMlH7kxz7QViDVu_FG'></script>
+<script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6LdZNIUUAAAAAKNIJC2dEnVMlH7kxz7QViDVu_FG', {action: 'contact'})
+    .then(function(token) {
+      document.getElementById('recaptcha').value = token;
+    });
+  });
+</script>
